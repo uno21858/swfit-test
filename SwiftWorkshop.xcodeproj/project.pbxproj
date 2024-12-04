@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B43889B2D00CBD10016945B /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B43889A2D00CBD10016945B /* Project.swift */; };
+		9B43889F2D00CF7D0016945B /* NewProjectForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B43889E2D00CF7D0016945B /* NewProjectForm.swift */; };
+		9B4388A12D00D6530016945B /* ProjectsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4388A02D00D6530016945B /* ProjectsList.swift */; };
+		9B4388A32D00D9DA0016945B /* ProjectsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4388A22D00D9DA0016945B /* ProjectsViewModel.swift */; };
 		9B5ADC522CFF7B7F009F87B0 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9B5ADC512CFF7B7F009F87B0 /* FirebaseAuth */; };
 		9B5ADC542CFF7B7F009F87B0 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 9B5ADC532CFF7B7F009F87B0 /* FirebaseDatabase */; };
 		9B5ADC562CFF7B7F009F87B0 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9B5ADC552CFF7B7F009F87B0 /* FirebaseFirestore */; };
@@ -23,6 +27,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B43889A2D00CBD10016945B /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		9B43889E2D00CF7D0016945B /* NewProjectForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProjectForm.swift; sourceTree = "<group>"; };
+		9B4388A02D00D6530016945B /* ProjectsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsList.swift; sourceTree = "<group>"; };
+		9B4388A22D00D9DA0016945B /* ProjectsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsViewModel.swift; sourceTree = "<group>"; };
 		9B5ADC572CFF7BDA009F87B0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		9B5ADC592CFF7E58009F87B0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9B5ADC5C2CFF7F33009F87B0 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
@@ -50,10 +58,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B4388992D00CBBE0016945B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9B43889A2D00CBD10016945B /* Project.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		9B5ADC5B2CFF7EE9009F87B0 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 				9B5ADC5C2CFF7F33009F87B0 /* AuthViewModel.swift */,
+				9B4388A22D00D9DA0016945B /* ProjectsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -78,6 +95,7 @@
 		9B6380392CFE2D4E00172362 /* SwiftWorkshop */ = {
 			isa = PBXGroup;
 			children = (
+				9B4388992D00CBBE0016945B /* Model */,
 				9B5ADC5B2CFF7EE9009F87B0 /* ViewModel */,
 				9B63803A2CFE2D4E00172362 /* SwiftWorkshopApp.swift */,
 				9B63803C2CFE2D4E00172362 /* ContentView.swift */,
@@ -103,6 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				9B6380492CFE2F3500172362 /* AuthView.swift */,
+				9B43889E2D00CF7D0016945B /* NewProjectForm.swift */,
+				9B4388A02D00D6530016945B /* ProjectsList.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -203,11 +223,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B4388A32D00D9DA0016945B /* ProjectsViewModel.swift in Sources */,
 				9B63803D2CFE2D4E00172362 /* ContentView.swift in Sources */,
 				9B63804D2CFE394A00172362 /* RoundedTextFieldStyle.swift in Sources */,
 				9B5ADC5D2CFF7F33009F87B0 /* AuthViewModel.swift in Sources */,
 				9B6380502CFE3D4000172362 /* AppNavigation.swift in Sources */,
+				9B43889F2D00CF7D0016945B /* NewProjectForm.swift in Sources */,
 				9B63803B2CFE2D4E00172362 /* SwiftWorkshopApp.swift in Sources */,
+				9B43889B2D00CBD10016945B /* Project.swift in Sources */,
+				9B4388A12D00D6530016945B /* ProjectsList.swift in Sources */,
 				9B63804A2CFE2F3500172362 /* AuthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct AuthView: View {
-    @State var authViewModel = AuthViewModel()
+    @Bindable var authViewModel : AuthViewModel
     @FocusState private var focus: String?
     
     var body: some View {
@@ -69,7 +69,3 @@ struct AuthView: View {
     }
 }
 
-
-#Preview {
-    AuthView()
-}
