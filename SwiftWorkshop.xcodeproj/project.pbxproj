@@ -24,6 +24,7 @@
 		9B63804A2CFE2F3500172362 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6380492CFE2F3500172362 /* AuthView.swift */; };
 		9B63804D2CFE394A00172362 /* RoundedTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B63804C2CFE394A00172362 /* RoundedTextFieldStyle.swift */; };
 		9B6380502CFE3D4000172362 /* AppNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B63804F2CFE3D4000172362 /* AppNavigation.swift */; };
+		9B7B2F542D021E3C00FB700F /* ProjectPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7B2F532D021E3C00FB700F /* ProjectPreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		9B6380492CFE2F3500172362 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		9B63804C2CFE394A00172362 /* RoundedTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTextFieldStyle.swift; sourceTree = "<group>"; };
 		9B63804F2CFE3D4000172362 /* AppNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigation.swift; sourceTree = "<group>"; };
+		9B7B2F532D021E3C00FB700F /* ProjectPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectPreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				9B6380492CFE2F3500172362 /* AuthView.swift */,
+				9B7B2F532D021E3C00FB700F /* ProjectPreview.swift */,
 				9B43889E2D00CF7D0016945B /* NewProjectForm.swift */,
 				9B4388A02D00D6530016945B /* ProjectsList.swift */,
 			);
@@ -224,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B4388A32D00D9DA0016945B /* ProjectsViewModel.swift in Sources */,
+				9B7B2F542D021E3C00FB700F /* ProjectPreview.swift in Sources */,
 				9B63803D2CFE2D4E00172362 /* ContentView.swift in Sources */,
 				9B63804D2CFE394A00172362 /* RoundedTextFieldStyle.swift in Sources */,
 				9B5ADC5D2CFF7F33009F87B0 /* AuthViewModel.swift in Sources */,

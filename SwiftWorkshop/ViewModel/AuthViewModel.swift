@@ -25,7 +25,8 @@ import FirebaseAuth
     
     private func registerAuthStateHandler(){
         if authStateHandle == nil {
-            self.authStateHandle = Auth.auth().addStateDidChangeListener{[weak self]auth, user in self?.user = user
+            self.authStateHandle = Auth.auth().addStateDidChangeListener{ [weak self] auth, user in
+                self?.user = user
             }
         }
     }

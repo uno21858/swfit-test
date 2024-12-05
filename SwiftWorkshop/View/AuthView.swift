@@ -18,6 +18,7 @@ struct AuthView: View {
                 .focused($focus, equals: "emailField")
                 .textContentType(.emailAddress)
                 .keyboardType(.emailAddress)
+                .textInputAutocapitalization(.never)
             
             SecureField("Contraseña", text: $authViewModel.password)
                 .textFieldStyle(RoundedTextFieldStyle())
